@@ -1,4 +1,6 @@
+##### 测试github markdown 公式
 
+$\lim_{x \to 0}{f(x)}$
 
 ![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-home.png)
 
