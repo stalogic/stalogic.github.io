@@ -1,15 +1,15 @@
 ---
 layout:     post
-title:      CTR预估
-subtitle:    "\"简单的CTR预估介绍\""
-date:       2019-08-18
+title:      Wide & Deep Learning
+subtitle:    "\"记忆能力与泛化能力相结合\""
+date:       2019-08-25
 author:     Eason
-header-img: img/post-bg-2019.jpg
+header-img: img/post-bg-20190825.jpg
 catalog: true
 tags:
     - CTR
-    - 种类特征变换
-    - 逻辑回归
+    - WDL
+    - Deep Learning
 ---
 
 
@@ -31,9 +31,7 @@ tags:
 
 ## 前言
 
-最近刚刚入职，开始接触点击率估计相关的业务，最近开始学习CTR相关的模型方法。
-
-打算学习Wide and Deep、DeepFM、xDeepFM等相关模型，这里就从CTR的基础知识开始吧。
+Wide and Deep Learning是Google 2016年发表的论文，是一系列模型的起点，今天我们就来看看这个模型。
 
 ---
 
