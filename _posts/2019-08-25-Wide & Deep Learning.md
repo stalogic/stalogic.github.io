@@ -44,11 +44,11 @@ $$
 \phi_k (x) = \prod_{i=1}^d x_i^{c_{ki}} \ \ \   c_{ki} \in \{0,1\}
 $$
 
-其中$x_i,i=1,2,\cdots,d$为原始特征，$c_{ki}$表示第$k$个转换特征$\phi_k(x)$是否由原始特征$x_i$构成，即$\phi_k(x)$是由特征集合$\{ x_i | c_{ki} = 1, i=1,2,\cdots,d\}$中所有特征交叉得到。即所有的原始特征为1则得到的变换特征$\phi_k(x)$为1，否则为0。
+其中$x_i,i=1,2,\cdots,d$为原始特征，$c_{ki}$表示第$k$个转换特征$\phi_k(x)$是否由原始特征$x_i$构成，即$\phi_k(x)$是由特征集合$\{ x_i \| c_{ki} = 1, i=1,2,\cdots,d\}$中所有特征交叉得到。即所有的原始特征为1则得到的变换特征$\phi_k(x)$为1，否则为0。
 
 Wide组件体现了WDL模型的记性性，即训练时的特征取值在预测时出现了，这时对应的参数就会对结果产生影响，如果预测时的某些特征取值在训练时没有出现，则对结果没有影响。
 
-![Wide and Deep](../img/2019-08-25-Wide.png)
+![Wide组件](https://github.com/stalogic/stalogic.github.io/blob/master/img/2019-08-25-Wide.png?raw=true)
 
 ## Deep组件
 
@@ -64,7 +64,7 @@ Wide组件体现了WDL模型的记性性，即训练时的特征取值在预测�
 
 ## 逻辑回归模型
 
-![Wide and Deep](../img/2019-08-25-WDL.png)
+![Wide and Deep](https://github.com/stalogic/stalogic.github.io/blob/master/img/2019-08-25-WDL.png?raw=true)
 
 上面介绍了点击率的概念和一些点击率预估的模型，下面介绍一个简单的逻辑回归模型。
 
