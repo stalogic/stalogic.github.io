@@ -52,7 +52,15 @@ Wide组件体现了WDL模型的记性性，即训练时的特征取值在预测�
 
 ## Deep组件
 
-点击率预估（Click Through Rate Prediction）是指通过一些方法，在广告、商品少量曝光甚至无曝光的情况下来预测该广告、商品的点击率，通常是使用机器学习模型来预测点击率，由于点击率是0到1之间的数值，因此常见的方法是将点击率预测问题看成是二分类问题，因此逻辑回归（Logistic Regression，LR）、支持向量机（Support Vector Machine，SVM），二分类GBDT、xgboost，以及二分类神经网络等模型都可以用来进行点击率预估。
+Deep组件是深度神经网络（Deep Nerual Network，DNN），连续的特征直接输入，种类特征转化为embedding向量后在输入进DNN中，数据在神经网络中逐层传播：
+
+$$
+a^{(l+1)} = f(W^{(l)} a^{(l)} + b^{(l)})
+$$
+
+这里的$f(\cdot)$是激活函数，通常为Relu，Sigmoid等，$W^{(l)},b^{(l)}$为第$l$层的参数和偏置。
+
+![Deep组件](https://github.com/stalogic/stalogic.github.io/blob/master/img/2019-08-25-Deep.png?raw=true)
 
 ## 种类特征变换
 
